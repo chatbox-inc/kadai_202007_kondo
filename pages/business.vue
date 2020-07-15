@@ -4,89 +4,23 @@
       <div class="wrap">
 
         <!-- Page Header -->
-        <header class="h-header">
-          <h1 class="h-logo">
-            <a href="https://www.jenerate.co.jp">
-              <img class="h-logo__img1" src="logo1.png">
-              <img class="h-logo__img2" src="logo2.png">
-            </a>
-          </h1>
-          <ul class="h-gNav__nav2--en">
-            <li>
-              <a href="https://www.jenerate.co.jp/">JP</a>
-            </li>
-            <li>
-              <a class="current">EN</a>
-            </li>
-          </ul>
-          <nav class="h-gNav">
-            <ul class="h-gNav__nav1">
-              <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item menu-item-50">
-                <router-link to="">私たちについて</router-link>
-              </li>
-              <li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">
-                <router-link to="/business">事業案内</router-link>
-              </li>
-              <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
-                <a href="https://www.jenerate.co.jp/companyprofile/">会社情報</a>
-              </li>
-              <li id="menu-item-526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-526">
-                <a href="https://www.jenerate.co.jp/recruit/">採用情報</a>
-              </li>
-              <li id="menu-item-527" class="is-hide0805 menu-item menu-item-type-post_type_archive menu-item-object-report menu-item-527">
-                <a href="https://www.jenerate.co.jp/report/">レポート</a>
-              </li>
-            </ul>
-            <ul class="h-gNav__nav2">
-              <li>
-                <a href="https://www.jenerate.co.jp/">JP</a>
-              </li>
-              <li>
-                <a href="https://www.jenerate.co.jp/english">EN</a>
-              </li>
-            </ul>
-            <a class="c-btn4" href="https://www.jenerate.co.jp/contactus/">
-              <span>CONTACT</span>
-            </a>
-            <div class="h-menu">
-              <img class="h-menu-df" src="menu1.png" alt>
-              <img class="h-menu-bk" src="menu1-bk.png" alt>
-            </div>
-          </nav>
-          <nav class="c-nav4">
-            <div class="c-nav4__inner">
-              <div class="c-nav4__img c-bg1" style="background-image:url('https://www.jenerate.co.jp/content/wp-content/themes/jp/assets/images/top/img3.jpg');"></div>
-              <div class="c-nav4__box">
-                <div>
-                  <div class="c-nav4__logo">
-                    <img class="h-menu-df" src="txt1.png">
-                  </div>
-                  <div class="c-nav4__main">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </header>
 
-        <aside class="aside">
-          <div class="container container-1">
-            <div class="c-mv1__ttlBlock">
-              <h2 class="as-2-1">
-                事業案内
-              </h2>
-              <p>
-                SERVICE
-              </p>
-            </div>
-            <div class="c-mv1__imgBlock c-bg1" style="background-image:url('statuc/img-5.jpg');">
-            </div>
+        <!-- Main Content -->
+        <aside class="c-mv1">
+          <div class="c-mv1__ttlBlock">
+            <h2 class="c-ttl2">
+              <span class="js-eff1">事業案内</span>
+            </h2>
+            <p class="c-ttl3">
+              <span class="js-eff1">SERVICE</span>
+            </p>
+          </div>
+          <div class="c-mv1__imgBlock c-bg1" sstyle="background-image:url('https://www.jenerate.co.jp/content/wp-content/uploads/2019/06/img-5.jpg');">
           </div>
         </aside>
 
-        <!-- Main Content -->
         <main>
-        <section class="u-pt6emu-pt2em--sp">
+        <section class="u-pt6em u-pt2em--sp">
           <h3 class="c-ttl4-2">
             Zero to
             <strong>One</strong>
@@ -101,11 +35,11 @@
           <div class="l-inner1">
             <ul class="u-grid">
               <li class="u-col4 u-col12--sp">
-                <a class="c-card1eff-txt1" href="">
-                  <p class="c-card1__img c-bg1 js-eff1" style="backgrond-image:url(https://www.jenerate.co.jp/content/wp-content/themes/jp/assets/images/common/img1.jpg);">
+                <a class="c-card1 eff-txt1" href="https://www.jenerate.co.jp/business/consulting/">
+                  <p class="c-card1__img c-bg1 js-eff1" style="background-image:url('https://www.jenerate.co.jp/content/wp-content/themes/jp/assets/images/common/img1.jpg');">
                   </p>
-                  <div class="c-card1_main">
-                    <div class="c-card__leadeff-txt1__item">
+                  <div class="c-card1__main">
+                    <div class="c-card1__lead eff-txt1__item">
                       <p>
                         <span>コーポレート・アントレプレナーシップ</span>
                       </p>
@@ -123,29 +57,47 @@
                 </a>
               </li>
               <li class="u-col4 u-col12--sp">
-                <a class="c-card1 eff-txt1" href="">
+                <a class="c-card1 eff-txt1" href="https://www.jenerate.co.jp/business/japanentry/">
                   <p class="c-card1__img c-bg1 js-eff1" style="background-image:url('https://www.jenerate.co.jp/content/wp-content/themes/jp/assets/images/common/img2.jpg');">
                   </p>
-                  <div class="c-card1__lead eff-txt1__item">
-                    <p>
-                      <span>グローバルスタートアップの日本参入</span>
+                  <div class="c-card1__main">
+                    <div class="c-card1__lead eff-txt1__item">
+                      <p>
+                        <span>グローバルスタートアップの日本参入</span>
+                      </p>
+                      <p>
+                        <span>をプロデュースします。</span>
+                      </p>
+                    </div>
+                    <p class="c-card1__ttl c-border1">
+                      ジャパンエントリー
                     </p>
-                    <p>
-                      <span>をプロデュースします。</span>
-                    </p>
-                  </div>
-                  <p class="c-card1__ttl c-border1">
-                    ジャパンエントリー
-                  </p>
-                  <div class="c-card1__txt">
-              革新的なビジネスアイデアやテクノロジーで世界を席巻する破壊的なスタートアップの日本市場参入を支援します。
+                    <div class="c-card1__txt">
+                革新的なビジネスアイデアやテクノロジーで世界を席巻する破壊的なスタートアップの日本市場参入を支援します。
+                    </div>
                   </div>
                 </a>
               </li>
               <li class="u-col4 u-col12--sp">
-                <a class="c-card1 eff-txt1" href="">
-                  <p class="c-card1__img c-bg1 js-eff1" style="background-image:url("/static/img3.jpg");">
+                <a class="c-card1 eff-txt1" href="https://www.jenerate.co.jp/business/investment/">
+                  <p class="c-card1__img c-bg1 js-eff1" style="background-image:url('https://www.jenerate.co.jp/content/wp-content/themes/jp/assets/images/common/img3.jpg');">
                   </p>
+                  <div class="c-card1__main">
+                    <div class="c-card1__lead eff-txt1__item">
+                      <p>
+                        <span>自己資本によるベンチャー投資・</span>
+                      </p>
+                      <p>
+                        <span>バイアウト投資を実行します。</span>
+                      </p>
+                    </div>
+                    <p class="c-card1__ttl c-border1">
+                      インベストメント
+                    </p>
+                    <div class="c-card1__txt">
+                      グループ会社のJIX CAPITALを通じて、ベンチャー投資・バイアウト投資などの手法を用いて投資を実行します。自らが経営リスクを取りながら直接的に事業を創造します。
+                    </div>
+                  </div>
                 </a>
               </li>
             </ul>
@@ -204,7 +156,9 @@
         </section>
         <nav class="c-breadcrumb l-inner2 u-mt2em u-mb2em">
           <span property="itemListElement" typeof="ListItem">
-            <span property="name">ホーム</span>
+            <a property="item" class="home">
+              <span property="name">ホーム</span>
+            </a>
           </span>
           <span class="bcn-split">
           </span>
@@ -212,10 +166,6 @@
             事業案内
           </span>
         </nav>
-        <section　class="p-ourBlock4">
-          <img class="is-pc"　src="img-4.jpg">
-          <img class="is-sp" src="img-13.jpg">
-        </section>
         <nav>
           <ul class="u-grid f-footrNav">
              <li class="u-col6 u-col12--sp is-hide1">
@@ -238,7 +188,7 @@
                   </p>
                   <p class="c-card3__ttl">
                     <img class="df" src="logo1.png" alt>
-                    <img class="bk" src="logo2.png" alt>
+                    <img class="ov" src="logo2.png" alt>
                   </p>
                   <p class="c-card3__jp c-border1">
                     会社情報
@@ -247,107 +197,10 @@
              </li>
           </ul>
         </nav>
-        </main>
+      </main>
 
         <!-- Footer -->
-        <footer class="f-footer">
-          <div class="l-inner2">
-            <div class="f-main">
-              <div class="f-block1">
-                <a class="f-logo1">
-                  <img src="logo1.png">
-                </a>
-                <p class="f-lead1">
-                  あらゆる手段を駆使して困難の多い0→1に挑みます。
-                </p>
-                <div class="f-block2">
-                  <div>
-                    <p>
-                      東京都渋谷区
-                      <br class="is-sp">
-                        恵比寿南3-1-19恵比寿ライトビル4F
-                    </p>
-                    <p class="f-tel">
-                      TEL:03-4405-6844
-                    </p>
-                  </div>
-                  <a class="c-btn2" href="">
-                    <span>CONTACT</span>
-                  </a>
-                </div>
-              </div>
-              <nav class="f-nav">
-                <div>
-                  <dl>
-                    <dt>
-                      私たちについて
-                    </dt>
-                  </dl>
-                  <dl class="js-btn">
-                    <dt>
-                      事業案内
-                    </dt>
-                    <dd style="display: none;">新規事業コンサルティング</dd>
-                    <dd style="display: none;">ジャパンエントリー</dd>
-                    <dd style="display: none;">イベントベストメント</dd>
-                    <dd style="display: none;">実績</dd>
-                  </dl>
-                  <dl>
-                    <dt>
-                      会社情報
-                    </dt>
-                  </dl>
-                </div>
-                <div>
-                  <dl class="js-btn is-hide1">
-                    <dt>
-                      採用情報
-                    </dt>
-                    <dd style="display: none;">キャリアパス</dd>
-                    <dd style="display: none;">働く環境</dd>
-                    <dd style="display: none;">募集要項</dd>
-                    <dd style="display: none;">メンバーインタビュー</dd>
-                  </dl>
-                  <dl class="js-btn is-hide0805">
-                    <dt>
-                      レポート
-                    </dt>
-                    <dd style="display: none;">事例</dd>
-                    <dd style="display: none;">トレンド</dd>
-                  </dl>
-                </div>
-                <div>
-                  <dl>
-                    <dt>
-                      お問い合わせ
-                    </dt>
-                  </dl>
-                  <dl>
-                    <dt>
-                      プライバシーポリシー
-                    </dt>
-                  </dl>
-                  <dl class="f-btn1">
-                    <dt>
-                      <a class="c-ico1">
-                        JIX CAPITAL
-                      </a>
-                    </dt>
-                  </dl>
-                </div>
-              </nav>
-              <ul class="h-gNav__nav2 is-hide2">
-                <li>
-                  <a class="current" href>JP</a>
-                </li>
-                <li>
-                  <a href>EN</a>
-                </li>
-              </ul>
-            </div>
-            <p class="f-copyright">© 2019 Jenerate Partners Inc.</p>
-          </div>
-        </footer>
+
       </div>
     </body>
   </html>
@@ -367,11 +220,376 @@
 </script>
 
 <style>
+.c-bg1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
-  footer {
-    padding: 57px 0 0px;
+.c-mv1__imgBlock {
+    position: absolute;
+    width: 66.66667vw;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+
+.c-card1 {
+    padding: 0 0 5em;
+    display: block;
+}
+
+
+
+.c-card1__img {
+    padding-top: 55.8%;
+}
+
+
+
+.c-ttl4-2 {
+    font-size: 9.02778vw;
     text-align: center;
-    background-color:0B1A28
-  }
+}
+
+
+
+.c-ttl4, .c-ttl4-2, .c-ttl4-3, .c-ttl4-4, .c-ttl4-5 {
+    color: #1b2f42;
+    line-height: 1;
+    letter-spacing: .05em;
+    font-family: "Abel","Lato","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,"メイリオ",Meiryo,"Helvetica Neue",Helvetica,"NotoSans",sans-serif;
+}
+
+
+
+.c-card1__lead {
+    font-weight: bold;
+    font-size: 4.53333vw;
+    color: #1b2f42;
+    margin-top: -3em;
+}
+@media screen and (min-width: 750px){
+.c-card1__lead {
+    font-size: 1.7rem;
+}
+}
+
+
+.c-card1__lead>* {
+    display: inline;
+    margin-bottom: .3em;
+    padding: .35em .5em;
+    white-space: nowrap;
+}
+
+
+
+.c-card1__txt {
+    font-size: 3.73333vw;
+    line-height: 1.8;
+}
+@media screen and (min-width: 750px){
+.c-card1__txt {
+    font-size: 1.5rem;
+}
+}
+
+
+
+.c-card1__main {
+    padding: 0 4.16667vw;
+}
+
+
+
+.c-card1__ttl, .c-card1__ttl--en {
+    font-size: 4.26667vw;
+    margin-top: 1em;
+    position: relative;
+}
+@media screen and (min-width: 750px){
+.c-card1__ttl, .c-card1__ttl--en {
+    font-size: 1.6rem;
+}
+}
+
+
+
+.c-card4 {
+    border-top: solid 3px #ddd;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: block;
+    position: relative;
+}
+
+
+
+
+
+.c-card4__ttl {
+    margin-top: 1em;
+    color: #b28850;
+}
+
+
+
+.c-card4__cat {
+    font-weight: bold;
+}
+
+
+
+.c-box1--b {
+    padding-left: 5.33333vw;
+    padding-right: 5.33333vw;
+    background-color: #f4f4f4;
+    padding-top: 0;
+}
+
+
+.c-box1, .c-box1--b {
+    padding-bottom: 5.55556vw;
+    position: relative;
+}
+
+
+
+.c-box1--b .c-ttl5, .c-box1--b .c-ttl5-2, .c-box1--b .c-ttl5-3, .c-box1--b .c-ttl5-4, .c-box1--b .c-ttl5-5, .c-box1--b .c-ttl5-6, .c-box1--b .c-ttl5-7, .c-box1--b .c-ttl5-8 {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+
+.c-ttl5, .c-ttl5-2, .c-ttl5-3, .c-ttl5-4, .c-ttl5-5, .c-ttl5-6, .c-ttl5-7, .c-ttl5-8 {
+    font-size: 4.8vw;
+    font-weight: bold;
+    color: #1b2f42;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: .05em;
+    font-family: "Abel","Lato","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,"メイリオ",Meiryo,"Helvetica Neue",Helvetica,"NotoSans",sans-serif;
+}
+@media screen and (min-width: 750px){
+.c-ttl5, .c-ttl5-2, .c-ttl5-3, .c-ttl5-4, .c-ttl5-5, .c-ttl5-6, .c-ttl5-7, .c-ttl5-8 {
+    font-size: 2.4rem;
+}
+}
+
+
+
+.c-ttl6 {
+    font-size: 4.26667vw;
+    font-weight: bold;
+    color: #1b2f42;
+    text-align: center;
+    line-height: 1;
+    font-family: "Abel","Lato","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,"メイリオ",Meiryo,"Helvetica Neue",Helvetica,"NotoSans",sans-serif;
+}
+@media screen and (min-width:750px) {
+.c-ttl6 {
+    font-size: 2.0rem;
+}
+}
+
+
+.c-btn1 {
+    font-size: 3.46667vw;
+    min-height: 13.33333vw;
+    display: flex;
+}
+@media screen and (min-width: 750px){
+.c-btn1 {
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    color: #1b2f42;
+    min-width: 240px;
+    min-height: 60px;
+    padding: 1.2em;
+    font-size: 1.4rem;
+    box-shadow: 2.5px 4.33px 20px 0px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+}
+
+
+
+.c-box1 .c-btn1, .c-box1--b .c-btn1 {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+
+
+@media screen and (min-width: 750px){
+.u-col4 {
+    width: 33.33% !important;
+}
+}
+
+
+
+.u-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+
+
+
+.u-pb4em--sp {
+    padding-bottom: 4em !important;
+}
+
+
+
+
+.u-pt2em--sp {
+    padding-top: 2em !important;
+}
+@media screen and (min-width: 750px){
+.u-pt6em {
+    padding-top: 6em !important;
+}
+}
+
+
+.eff-txt1 .eff-txt1__item>*::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #1b2f42;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+
+
+.c-card1__ttl::before, .c-card1__ttl--en::before {
+    content: "";
+    display: block;
+    background-image: url(/static/ico5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.eff-txt1 .eff-txt1__item>* {
+    background-color: #fff;
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+
+.eff-txt1 .eff-txt1__item>*:last-child::before {
+    transition-delay: .18s;
+}
+
+
+.eff-txt1 .eff-txt1__item>*>* {
+    position: relative;
+}
+
+
+
+.u-mt1em {
+    margin-top: 1em !important;
+}
+
+
+.u-mb50px {
+    margin-bottom: 50px !important;
+}
+
+
+.u-taCenter {
+    text-align: center !important;
+}
+
+
+
+.u-mb6em--sp {
+    margin-bottom: 6em !important;
+}
+@media screen and (min-width: 750px){
+.u-mb100px {
+    margin-bottom: 100px !important;
+}
+}
+
+
+
+
+.u-pb0em--sp {
+    padding-bottom: 0em !important;
+}
+@media screen and (min-width: 750px){
+.u-pb50px {
+    padding-bottom: 50px !important;
+}
+}
+
+
+.u-mb2em {
+    margin-bottom: 2em !important;
+}
+
+
+
+.l-inner1, .l-inner2, .l-inner5, .l-inner6 {
+    padding-right: 5.33333vw;
+    padding-left: 5.33333vw;
+    position: relative;
+}
+@media screen and (min-width: 750px){
+.l-inner1, .l-inner2, .l-inner5, .l-inner6 {
+    padding-right: 2.77778vw;
+    padding-left: 2.77778vw;
+}
+}
+
+
+.l-inner3{
+  padding-right: 5.33333vw;
+  padding-left: 5.33333vw;
+  position: relative;
+}
+
+
+
+a {
+    transition: all .2s;
+    color: inherit;
+    text-decoration: none;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 </style>
