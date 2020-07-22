@@ -318,10 +318,12 @@
     color: #fff;
     font-family: "Abel","Lato","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,"メイリオ",Meiryo,"Helvetica Neue",Helvetica,"NotoSans",sans-serif;
     text-transform: uppercase;
+    margin-top: .5em;
 }
 @media screen and (min-width: 750px){
 .c-ttl3, .c-ttl3-2 {
     font-size: 1.4rem;
+    margin-top: 0;
 }
 }
 
@@ -377,7 +379,7 @@
 }
 @media screen and(min-width: 750px){
 .c-card3--b {
-    height: 280px;
+    height: 100%;
 }
 }
 
@@ -398,7 +400,7 @@
 }
 @media screen and(min-width: 750px){
 .c-card3 {
-    height: 280px;
+    height: 100%;
 }
 }
 
@@ -660,13 +662,9 @@
 }
 
 
-
 .l-inner2 {
-    padding-right: 5.33333vw;
-    padding-left: 5.33333vw;
     max-width: 1280px;
 }
-
 
 
 
@@ -678,71 +676,6 @@
 .l-inner4 {
     padding-right: 8.33333vw;
     padding-left: 8.33333vw;
-}
-}
-
-
-
-.p-ourBlock1 {
-    margin-right: 0;
-    padding-top: 16vw;
-    position: relative;
-    background-color: #fff;
-}
-@media screen and (min-width: 750px){
-.p-ourBlock1 {
-    margin-right: 16.66667vw;
-    padding-top: 8.75vw;
-}
-}
-
-
-
-.p-ourBlock1 .c-lead1 {
-    margin: 3.47222vw 0;
-}
-@media screen and (min-width: 750px){
-.p-ourBlock2 .c-lead1 {
-    margin-top: 3.47222vw;
-}
-}
-
-
-
-@media screen and (min-width: 750px){
-.p-ourImg1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 8.33333vw;
-}
-}
-
-
-
-.p-ourBlock2 {
-    padding: 0;
-}
-@media screen and (min-width: 750px){
-.p-ourBlock2 {
-    position: relative;
-    padding-left: 8.33333vw;
-    padding-top: 10.41667vw;
-}
-}
-
-
-
-.p-ourBlock3 {
-    padding: 0 5.33333vw;
-    margin-right: 0;
-}
-@media screen and (min-width: 750px){
-.p-ourBlock3 {
-    background-color: #fff;
-    margin-top: 4.16667vw;
-    margin-right: 32.63889vw;
-    padding: .69444vw 6.94444vw 6.94444vw 0;
 }
 }
 
@@ -789,7 +722,7 @@
 }
 @media screen and (min-width: 750px){
 .f-footrNav {
-    height: 50%;
+    height: 20.8vw;
 }
 }
 
@@ -992,6 +925,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+@media screen and (min-width: 750px){
+.f-nav dt::after {
+    content: "";
+    display: none;
+}
+}
+
 
 
 
@@ -1025,9 +965,13 @@
 
 
 .u-col6 {
+    width: 100% !important;
+}
+@media screen and (min-width: 750px){
+.u-col12--sp {
     width: 50% !important;
 }
-
+}
 
 
 
